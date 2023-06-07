@@ -24,6 +24,7 @@ pip list
 
 You can run tests to make sure the package is installed successfully
 ```bash
+cd cinoas/tests
 pytest -v
 ```
 
