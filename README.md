@@ -17,10 +17,20 @@ cd cinoas
 pip install -e .
 ```
 
+This procedure will register `cinoas` within `pip` and you should be able to see `cinoas` listed by calling
+```bash
+pip list
+```
+
 You can run tests to make sure the package is installed successfully
 ```bash
 pytest -v
 ```
+
+## Requirements
+* numpy
+* pytest
+* [Psi4](https://github.com/psi4/psi4)
 
 Getting Started
 ---------------
